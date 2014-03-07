@@ -4,7 +4,7 @@ def which_python
   "python" + `python -c 'import sys;print(sys.version[:3])'`.strip
 end
 
-class Docopt < Formula
+class PythonDocopt < Formula
   homepage 'http://docopt.org'
 
   git_url = 'https://github.com/docopt/docopt.git'
