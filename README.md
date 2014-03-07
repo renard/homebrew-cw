@@ -1,12 +1,13 @@
 Homebrew-cw
 ===========
-These formulae provide software that are not (yet?) included into official mxcl/homebrew.
+
+These formulae provide software that are not (yet?) included into official
+mxcl/homebrew.
 
 How do I install these formulae?
 --------------------------------
-Just `brew tap renard/cw` and then `brew install <formula>`.
 
-If the formula conflicts with one from mxcl/master or another tap, you can `brew install renard/cw/<formula>`.
+Just `brew tap renard/cw` and then `brew install renard/cw/<formula>`.
 
 You can also install via URL:
 
