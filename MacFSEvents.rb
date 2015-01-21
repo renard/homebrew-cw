@@ -6,8 +6,8 @@ end
 
 class Macfsevents < Formula
   homepage 'http://pypi.python.org/pypi/MacFSEvents'
-  url 'http://pypi.python.org/packages/source/M/MacFSEvents/MacFSEvents-0.3.tar.gz'
-  sha1 'b4fdcd9ce9abf4fe1b3c9fd390ac155367aad5ed'
+  url 'http://pypi.python.org/packages/source/M/MacFSEvents/MacFSEvents-0.4.tar.gz'
+  sha1 '0722aeea4b06a3d64a96875f2325ce1bdbf2591f'
 
   depends_on :python
 
