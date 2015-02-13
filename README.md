@@ -30,6 +30,27 @@ brew install https://raw.github.com/renard/homebrew-cw/master/<formula>.rb
 Just `brew untap renard/cw`.
 
 
+## Formulae
+
+<!--
+git ls-files -z  '*.rb'  | xargs -0 grep 'homepage ' | \
+sed "s/\(.*\).rb: *homepage *'\(.*\)'/- [\1](\2) /"
+-->
+- [MacFSEvents](http://pypi.python.org/pypi/MacFSEvents)
+- [asciidoc-odf](https://github.com/dagwieers/asciidoc-odf)
+- [dylibbundler](http://macdylibbundler.sourceforge.net)
+- [git-meta](https://github.com/renard/git-meta)
+- [git-prop](https://github.com/renard/git-prop)
+- [libfixposix](https://github.com/sionescu/libfixposix)
+- [metastore](https://github.com/chadrik/metastore)
+- [python-biplist](https://bitbucket.org/wooster/biplist)
+- [python-docopt](http://docopt.org)
+- [python-dpath](https://github.com/akesterson/dpath-python)
+- [python-jsonpath-rw](https://github.com/kennknowles/python-jsonpath-rw)
+- [python-pycrypto](https://www.dlitz.net/software/pycrypto/)
+- [python-yaml](http://pyyaml.org/wiki/PyYAML)
+
+
 ## Docs
 
 Run `brew help`, `man brew`, or visit the
