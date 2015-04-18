@@ -47,6 +47,7 @@ sed "s/\(.*\).rb: *homepage *'\(.*\)'/- [\1](\2) /"
 - [python-docopt](http://docopt.org)
 - [python-dpath](https://github.com/akesterson/dpath-python)
 - [python-jsonpath-rw](https://github.com/kennknowles/python-jsonpath-rw)
+- [python-m2crypto](https://pypi.python.org/pypi/M2Crypto)
 - [python-pycrypto](https://www.dlitz.net/software/pycrypto/)
 - [python-wand](http://wand-py.org/) 
 - [python-yaml](http://pyyaml.org/wiki/PyYAML)
