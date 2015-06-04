@@ -54,10 +54,11 @@ sed "s/\(.*\).rb: *homepage *'\(.*\)'/- [\1](\2) /"
 - [python-jsonpath-rw](https://github.com/kennknowles/python-jsonpath-rw) 
 - [python-m2crypto](https://pypi.python.org/pypi/M2Crypto) 
 - [python-pycrypto](https://www.dlitz.net/software/pycrypto/) 
+- [python-pyopenssl](https://pypi.python.org/pypi/pyOpenSSL) 
+- [python-twisted](https://twistedmatrix.com/trac/) 
 - [python-wand](http://wand-py.org/) 
 - [python-werkzeug](http://werkzeug.pocoo.org/) 
 - [python-yaml](http://pyyaml.org/wiki/PyYAML) 
-
 
 ## Docs
 
