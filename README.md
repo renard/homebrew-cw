@@ -38,6 +38,7 @@ sed "s/\(.*\).rb: *homepage *'\(.*\)'/- [\1](\2) /"
 -->
 - [MacFSEvents](http://pypi.python.org/pypi/MacFSEvents) 
 - [asciidoc-odf](https://github.com/dagwieers/asciidoc-odf) 
+- [diceware](https://github.com/akheron) 
 - [dylibbundler](http://macdylibbundler.sourceforge.net) 
 - [git-meta](https://github.com/renard/git-meta) 
 - [git-prop](https://github.com/renard/git-prop) 
