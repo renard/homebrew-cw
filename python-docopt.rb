@@ -16,14 +16,17 @@ class PythonDocopt < Formula
   depends_on :python
 
   def install
-    # ENV.j1  # if your formula's build system can't parallelize
+    python_ver = '2.7'
+    python_site_package = "python#{python_ver}/site-packages"
+    package = name
+    ENV.prepend_create_path 'PYTHONPATH', libexec/python_site_package
     
-    #python_lib = lib + which_python + 'site-packages'
-    #system "python", "setup.py", "build"
-    #python_lib.mkpath
-    system "python", "setup.py", "install", "--prefix=#{prefix}"
-  end
-
-  def test
+    system 'python', *Language::Python.setup_install_args(libexec)
+    site_packages = lib/python_site_package
+    site_packages.mkpath
+    (site_packages/"#{package}.pth").write <<-EOS.undent
+        #{libexec}/vendor/lib/#{python_site_package}
+        #{libexec}/lib/#{python_site_package}
+    EOS
   end
 end

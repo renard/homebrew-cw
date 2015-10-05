@@ -9,8 +9,9 @@ class PythonRequestsToolbelt < Formula
   depends_on 'renard/cw/python-requests'
 
   def install
-    python_site_package = 'python2.7/site-packages'
-    package = 'requests_toolbelt'
+    python_ver = '2.7'
+    python_site_package = "python#{python_ver}/site-packages"
+    package = name
     ENV.prepend_create_path 'PYTHONPATH', libexec/python_site_package
     
     system 'python', *Language::Python.setup_install_args(libexec)
