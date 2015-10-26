@@ -36,8 +36,7 @@ Just `brew untap renard/cw`.
 git ls-files -z  '*.rb'  | xargs -0 grep 'homepage ' | \
 sed "s/\(.*\).rb: *homepage *'\(.*\)'/- [\1](\2) /"
 -->
-- [Casks/ricoh-driver-aficio-sp-c240dn](http://support.ricoh.com/bb/html/dr_ut_e/ra/model/spc240/spc240fr.htm)
-- [MacFSEvents](http://pypi.python.org/pypi/MacFSEvents)
+- [Casks/ricoh-driver-aficio-sp-c240dn](http://support.ricoh.com/bb/html/dr_ut_e/ra/model/spc240/spc240fr.htm) 
 - [asciidoc-odf](https://github.com/dagwieers/asciidoc-odf) 
 - [diceware](https://github.com/akheron) 
 - [dylibbundler](http://macdylibbundler.sourceforge.net) 
@@ -58,7 +57,8 @@ sed "s/\(.*\).rb: *homepage *'\(.*\)'/- [\1](\2) /"
 - [python-itsdangerous](https://pythonhosted.org/itsdangerous/) 
 - [python-jinja2](http://jinja.pocoo.org/) 
 - [python-jsonpath-rw](https://github.com/kennknowles/python-jsonpath-rw) 
-- [python-m2crypto](https://pypi.python.org/pypi/M2Crypto) 
+- [python-m2crypto](https://pypi.python.org/pypi/M2Crypto)
+- [python-macfsevents](http://pypi.python.org/pypi/MacFSEvents)
 - [python-markdown](https://pypi.python.org/pypi/Markdown) 
 - [python-markupsafe](https://pypi.python.org/pypi/MarkupSafe/) 
 - [python-oauthlib](https://pypi.python.org/pypi/oauthlib) 
