@@ -36,6 +36,7 @@ Just `brew untap renard/cw`.
 git ls-files -z  '*.rb'  | xargs -0 grep 'homepage ' | \
 sed "s/\(.*\).rb: *homepage *'\(.*\)'/- [\1](\2) /"
 -->
+- [Casks/canon-driver-ufr-ii](http://fr.software.canon-europe.com/products/0010767.asp) 
 - [Casks/ricoh-driver-aficio-sp-c240dn](http://support.ricoh.com/bb/html/dr_ut_e/ra/model/spc240/spc240fr.htm) 
 - [asciidoc-odf](https://github.com/dagwieers/asciidoc-odf) 
 - [diceware](https://github.com/akheron) 
