@@ -3,9 +3,9 @@ require 'formula'
 class PythonOauthlib < Formula
   homepage 'https://pypi.python.org/pypi/oauthlib'
   url 'https://pypi.python.org/packages/source/o/oauthlib/oauthlib-1.0.3.tar.gz'
-  sha1 'c072f1e152900a6a2970f6d589c5cb3b5d12fb93'
+  sha256 'ef4bfe4663ca3b97a995860c0173b967ebd98033d02f38c9e1b2cbb6c191d9ad'
 
-  depends_on :python
+  depends_on 'python'
 
   def install
     python_ver = '2.7'

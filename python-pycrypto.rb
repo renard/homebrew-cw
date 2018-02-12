@@ -4,9 +4,9 @@ require 'formula'
 class PythonPycrypto < Formula
   homepage 'https://www.dlitz.net/software/pycrypto/'
   url 'https://pypi.python.org/packages/source/p/pycrypto/pycrypto-2.6.1.tar.gz'
-  sha1 'aeda3ed41caf1766409d4efc689b9ca30ad6aeb2'
+  sha256 'f2ce1e989b272cfcb677616763e0a2e7ec659effa67a88aa92b3a65528f60a3c'
 
-  depends_on :python
+  depends_on 'python'
 
   def install
     python_ver = '2.7'

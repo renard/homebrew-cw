@@ -2,10 +2,11 @@ require 'formula'
 
 class PythonMarkdown < Formula
   homepage 'https://pypi.python.org/pypi/Markdown'
-  url 'https://pypi.python.org/packages/source/M/Markdown/Markdown-2.6.2.tar.gz'
-  sha1 'a988f811f1c73de4b49f610dee58a6b8132f5afe'
+  version '2.6.2'
+  url "https://pypi.python.org/packages/source/M/Markdown/Markdown-#{version}.tar.gz"
+  sha256 'ee17d0d7dc091e645dd48302a2e21301cc68f188505c2069d8635f94554170bf'
 
-  depends_on :python
+  depends_on 'python'
 
   def install
     python_ver = '2.7'

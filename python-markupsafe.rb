@@ -3,9 +3,9 @@ require 'formula'
 class PythonMarkupsafe < Formula
   homepage 'https://pypi.python.org/pypi/MarkupSafe/'
   url 'https://pypi.python.org/packages/source/M/MarkupSafe/MarkupSafe-0.23.tar.gz'
-  sha1 'cd5c22acf6dd69046d6cb6a3920d84ea66bdf62a'
+  sha256 'a4ec1aff59b95a14b45eb2e23761a0179e98319da5a7eb76b56ea8cdc7b871c3'
 
-  depends_on :python
+  depends_on 'python'
 
   def install
     python_ver = '2.7'

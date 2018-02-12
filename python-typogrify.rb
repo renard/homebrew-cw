@@ -3,9 +3,9 @@ require 'formula'
 class PythonTypogrify < Formula
   homepage 'https://pypi.python.org/pypi/typogrify'
   url 'https://pypi.python.org/packages/source/t/typogrify/typogrify-2.0.7.tar.gz'
-  sha1 '4eed33df74c694ae953469b75012043ce5783477'
+  sha256 '8be4668cda434163ce229d87ca273a11922cb1614cb359970b7dc96eed13cb38'
 
-  depends_on :python
+  depends_on 'python'
 
   def install
     python_ver = '2.7'

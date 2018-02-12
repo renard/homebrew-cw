@@ -3,9 +3,9 @@ require 'formula'
 class PythonWand < Formula
   homepage 'http://wand-py.org/'
   url 'https://github.com/dahlia/wand/archive/0.4.0.tar.gz'
-  sha1 'd058a569852214a2d9aaab7a35f3b8a1ea03151e'
+  sha256 'ec5a50d1ec49e060c6b24a030308d0b710ea71f92136236ed815e9a0efd5b91e'
 
-  depends_on :python
+  depends_on 'python'
 
   def install
     python_ver = '2.7'

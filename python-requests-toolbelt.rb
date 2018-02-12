@@ -3,9 +3,9 @@ require 'formula'
 class PythonRequestsToolbelt < Formula
   homepage 'https://pypi.python.org/pypi/requests-toolbelt'
   url 'https://pypi.python.org/packages/source/r/requests-toolbelt/requests-toolbelt-0.4.0.tar.gz'
-  sha1 '89034149cb90c4ba825bbc8c68a590c3ad41f067'
+  sha256 '15b74b90a63841b8430d6301e5062cd92929b1074b0c95bf62166b8239db1a96'
 
-  depends_on :python
+  depends_on 'python'
   depends_on 'renard/cw/python-requests'
 
   def install

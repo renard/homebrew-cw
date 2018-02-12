@@ -3,9 +3,9 @@ require 'formula'
 class PythonWerkzeug < Formula
   homepage 'http://werkzeug.pocoo.org/'
   url 'https://github.com/mitsuhiko/werkzeug/archive/0.9.6.tar.gz'
-  sha1 '2fceb3b2143111cbc4c1360906eb379e1dd78873'
+  sha256 '9199aa5d047474185b80b95191ac730bde0fec54b697b8d8e4b0099949237917'
 
-  depends_on :python
+  depends_on 'python'
 
   def install
     python_ver = '2.7'

@@ -3,10 +3,10 @@ require 'formula'
 
 class PythonMacfsevents < Formula
   homepage 'http://pypi.python.org/pypi/MacFSEvents'
-  url 'http://pypi.python.org/packages/source/M/MacFSEvents/MacFSEvents-0.4.tar.gz'
-  sha1 '0722aeea4b06a3d64a96875f2325ce1bdbf2591f'
+  version '0.7'
+  url "https://pypi.python.org/packages/f4/fb/59f72719e339f6209997414c6d0b7e1e1f96900dede3ec1cc24008471cc2/MacFSEvents-#{version}.tar.gz"
+  sha256 '95d3cddaf8a42435bfbd50087785ee9e3ebb8325242cfd06a88ea21f85bcb56f'
 
-  depends_on :python
 
   def patches
     # Fix KeyError in fsevents.py", line 167, in __call__:

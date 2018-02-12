@@ -3,9 +3,9 @@ require 'formula'
 class PythonFswrap < Formula
   homepage 'https://pypi.python.org/pypi/fswrap'
   url 'https://pypi.python.org/packages/source/f/fswrap/fswrap-1.0.0.tar.gz'
-  sha1 '13aeb655084a1ec64cde1820f8b4b28dde88cad2'
+  sha256 '818e759313a5e4da5deaafd4fb73e3ef836e9dada9ece7fb837412a7f9d79ab5'
 
-  depends_on :python
+  depends_on "python"
 
   def install
     python_ver = '2.7'

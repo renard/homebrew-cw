@@ -3,7 +3,7 @@ require 'formula'
 class AsciidocOdf < Formula
   homepage 'https://github.com/dagwieers/asciidoc-odf'
   url 'https://github.com/dagwieers/asciidoc-odf/tarball/master'
-  sha1 'ecd738aa3ea98c3f9494df2621ffc556e55a60e7'
+  sha256 '895fac43d9aa3a0023a2cbaa43093654a8feb3c752661b9ea564fb2d283d113b'
   version '0.1-20120418'
 
   def install
@@ -16,7 +16,7 @@ class AsciidocOdf < Formula
     DATA
   end
 
-  def caveats; <<-EOS.undent
+  def caveats; <<-EOS
     asciidoc-odf export needs asciidoc CONF_DIR set to /usr/local/etc/asciidoc
 
     You still can run:

@@ -3,7 +3,7 @@ require 'formula'
 class PythonCommando < Formula
   homepage 'https://pypi.python.org/pypi/commando'
   url 'https://pypi.python.org/packages/source/c/commando/commando-1.0.0.tar.gz'
-  sha1 '358330ba13daa0e326a02625f10df4a86f6f7919'
+  sha256 '3cc802fc8c13d562d9de3ad9246da3f5931cc99c07cc9cc8a70cd0a816f75682'
 
   depends_on :python
 

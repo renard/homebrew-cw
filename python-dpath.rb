@@ -5,7 +5,7 @@ require 'formula'
 class PythonDpath < Formula
   homepage 'https://github.com/akesterson/dpath-python'
   url 'https://github.com/akesterson/dpath-python/archive/build,1.3,1.tar.gz'
-  sha1 'f77a1731e615d936a85874f94fe8745be78614b4'
+  sha256 '1bae3ef485c799905a8899175e07c4c1b5916e3eb09a81d3890e49d03bd3d327'
 
   depends_on :python
 

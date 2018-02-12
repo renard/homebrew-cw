@@ -3,9 +3,9 @@ require 'formula'
 class PythonPyopenssl < Formula
   homepage 'https://pypi.python.org/pypi/pyOpenSSL'
   url 'https://pypi.python.org/packages/source/p/pyOpenSSL/pyOpenSSL-0.15.1.tar.gz'
-  sha1 'e4d752de1fea5a40a982d4d55004cfb14109ba99'
+  sha256 'f0a26070d6db0881de8bcc7846934b7c3c930d8f9c79d45883ee48984bc0d672'
 
-  depends_on :python
+  depends_on 'python'
   
   def install
     python_ver = '2.7'

@@ -3,9 +3,9 @@ require 'formula'
 class PythonRequests < Formula
   homepage 'http://docs.python-requests.org/'
   url 'https://github.com/kennethreitz/requests/archive/v2.5.1.tar.gz'
-  sha1 '7c1e0c35a5c8738d8ad43e38aa9c862e453a7492'
+  sha256 '1e5ea203d49273be90dcae2b98120481b2ecfc9f2ae512ce545baab96f57b58c'
 
-  depends_on :python
+  depends_on 'python'
 
   def install
     python_ver = '2.7'

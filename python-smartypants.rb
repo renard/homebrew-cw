@@ -3,9 +3,9 @@ require 'formula'
 class PythonSmartypants < Formula
   homepage 'https://pypi.python.org/pypi/smartypants'
   url 'https://pypi.python.org/packages/source/s/smartypants/smartypants-1.8.6.tar.gz'
-  sha1 '5578965b6fd73e2a460cfdcc23819075028ca02b'
+  sha256 'dcc206478e633b03e9abfeb7512a0acf90191cb4b38d251e05468ef063386512'
 
-  depends_on :python
+  depends_on 'python'
 
   def install
     python_ver = '2.7'

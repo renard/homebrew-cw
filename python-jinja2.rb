@@ -3,9 +3,9 @@ require 'formula'
 class PythonJinja2 < Formula
   homepage 'http://jinja.pocoo.org/'
   url 'https://pypi.python.org/packages/source/J/Jinja2/Jinja2-2.7.3.tar.gz'
-  sha1 '25ab3881f0c1adfcf79053b58de829c5ae65d3ac'
+  sha256 '2e24ac5d004db5714976a04ac0e80c6df6e47e98c354cb2c0d82f8879d4f8fdb'
 
-  depends_on :python
+  depends_on "python"
 
   def install
     python_ver = '2.7'

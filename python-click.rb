@@ -2,8 +2,8 @@ require 'formula'
 
 class PythonClick < Formula
   homepage 'http://click.pocoo.org/'
-  url 'https://github.com/mitsuhiko/click/archive/5.1.tar.gz'
-  sha1 'd38bf618e718e6613512bdb77490686477aa0c16'
+  url 'https://github.com/mitsuhiko/click/archive/6.2.tar.gz'
+  sha256 '3aff90410e81bfbf48c47367c8c6d61a336397d7e9f16af96c8a7a6de2b23fff'
 
   depends_on :python
 

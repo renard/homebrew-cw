@@ -4,7 +4,7 @@ require 'formula'
 class PythonBiplist < Formula
   homepage 'https://bitbucket.org/wooster/biplist'
   url 'https://bitbucket.org/wooster/biplist/downloads/biplist-0.9.tar.gz'
-  sha1 'b2ab598f477470550261550a33d214a29bf2e57b'
+  sha256 'b35bc5602fb01c8f8bd05ff18c55f4e861c382d1bd6fb12ce55fc81e9706d1af'
 
   depends_on :python
 

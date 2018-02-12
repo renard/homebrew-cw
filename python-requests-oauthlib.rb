@@ -3,9 +3,9 @@ require 'formula'
 class PythonRequestsOauthlib < Formula
   homepage 'https://github.com/requests/requests-oauthlib/'
   url 'https://github.com/requests/requests-oauthlib/archive/v0.5.0.tar.gz'
-  sha1 '2edb141eab5c6eec3f48bba02f6f36a543696da6'
+  sha256 'f270e1ba6eaead4e0f363a7a9a64209a9c8aa3f2a7c0b5c2b979fbccb11a32ce'
 
-  depends_on :python
+  depends_on 'python'
   depends_on 'renard/cw/python-requests'
   depends_on 'renard/cw/python-oauthlib'
 
