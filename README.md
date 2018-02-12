@@ -79,6 +79,11 @@ sed "s/\(.*\).rb: *homepage *'\(.*\)'/- [\1](\2) /"
 - [python-werkzeug](http://werkzeug.pocoo.org/)
 - [python-yaml](http://pyyaml.org/wiki/PyYAML)
 
+
+Please note that python formulas might be outdated. You should probably use
+`pip` instead.
+
+
 ## Docs
 
 Run `brew help`, `man brew`, or visit the
